@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "record_type": "scientific_archive_hash_commitment",
+  "author": "Широков Дмитрий Юрьевич",
+  "work": "Теория материальной точки (МТ) / Material Point Theory (MT)",
+  "edition": "v0p5",
+  "edition_status": "canon_draft",
+  "archive_label_date": "2026-09-24",
+  "hash_algorithm": "SHA-256",
+  "plaintext_archive": {
+    "filename": "MT_SCIENTIFIC_v0p5_20260924.tar.zst",
+    "bytes": 11944268913,
+    "sha256": "3a0e47d6bf168fc5e94b9cb83af2ade6ac40857646607ebcb0be297e298a68a4"
+  },
+  "encrypted_archive": {
+    "filename": "MT_SCIENTIFIC_v0p5_20260924.tar.zst.gpg",
+    "bytes": 11945775777,
+    "sha256": "7a86da8a13f31924d2f4af3c0ae192767b385cedf79be61ac8fa63041deb80af"
+  },
+  "encryption": {
+    "format": "OpenPGP",
+    "cipher": "AES-256",
+    "authenticated_mode": "OCB"
+  },
+  "full_decryption_verified_against_plaintext_sha256": true,
+  "local_preparation_time_utc": "2026-09-23T20:03:52.377645+00:00",
+  "publication_scope": "hashes_and_identifying_metadata_only",
+  "archive_contents_disclosed": false,
+  "decryption_key_disclosed": false,
+  "note_ru": "Это публикация криптографических хешей. Содержание научного выпуска не раскрыто; запись сама по себе не подтверждает научную корректность, новизну или авторство.",
+  "note_en": "This record publishes cryptographic hashes only. The scientific release contents are not disclosed; this record alone does not establish scientific correctness, novelty, or authorship."
+}
