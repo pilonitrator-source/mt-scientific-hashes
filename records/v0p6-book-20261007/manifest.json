@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "record_type": "book_snapshot_hash_commitment",
+  "author": "Широков Дмитрий Юрьевич",
+  "work": "Теория материальной точки (МТ) / Material Point Theory (MT)",
+  "edition": "v0p6",
+  "edition_status": "canon_draft",
+  "reader_status": "adopted_reading_edition",
+  "archive_label_date": "2026-10-07",
+  "snapshot_scope": "book_reader_and_editorial_metadata_only",
+  "reader_file_count": 25,
+  "reader_source_bytes": 2848701,
+  "hash_algorithm": "SHA-256",
+  "source_theory_sha256": "4940e47fd6eadd17e47e5637719e2f005aa41d745accd40258f31ffd64ed7d56",
+  "source_proof_navigation_sha256": "db87979f3ba021c1b762adf3510a2ca33a489bb85395dfe401fbcc4e1ccb4471",
+  "internal_snapshot_manifest_sha256": "a7cd073d4c3a519fa05b8e85aee1478b576c7320261f1d7ed65f14860f84670d",
+  "plaintext_archive": {
+    "filename": "MT_BOOK_v0p6_20261007.tar.zst",
+    "bytes": 598985,
+    "sha256": "b0b4e9b78eed64d86da762c14d58bcfb78a2e79ec2d1524333a62be76d96551b"
+  },
+  "encrypted_archive": {
+    "filename": "MT_BOOK_v0p6_20261007.tar.zst.gpg",
+    "bytes": 599196,
+    "sha256": "2a2ecdcb2319a953c6532381e0ec350a8842196c6dadcf093547904a7657c03e"
+  },
+  "encryption": {
+    "format": "OpenPGP",
+    "software": "gpg (GnuPG) 2.4.4",
+    "cipher": "AES-256",
+    "authenticated_mode": "OCB"
+  },
+  "full_decryption_verified_against_plaintext_sha256": true,
+  "source_files_unchanged_during_packaging": true,
+  "full_machine_release_acceptance_attested": false,
+  "local_preparation_time_utc": "2026-10-07T10:00:59.555Z",
+  "independent_timestamp": null,
+  "publication_scope": "hashes_and_identifying_metadata_only",
+  "archive_contents_disclosed": false,
+  "decryption_key_disclosed": false,
+  "note": "This record identifies one book snapshot, not the full theory or Lean proof bundle. Hashes alone do not establish correctness, novelty, authorship or an independently certified publication time."
+}
