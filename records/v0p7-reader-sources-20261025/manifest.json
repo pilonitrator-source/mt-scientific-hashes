@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "record_type": "scientific_archive_hash_commitment",
+  "publication_status": "PUBLISHED_GITHUB_HASHES_ONLY",
+  "author": "Широков Дмитрий Юрьевич",
+  "work": "Теория материальной точки (МТ) / Material Point Theory (MT)",
+  "edition": "v0p7",
+  "edition_status": "canon_draft",
+  "reader_status": "EDITORIAL_ADOPTED_CURRENT_READER",
+  "editorial_adoption_date": "2026-10-25",
+  "archive_label_date": "2026-10-25",
+  "source_reader_commit": "d886790a020ffb233e2ee36f10a49185102b24f4",
+  "editorial_adoption_commit": "bfcd02d9dc97f519c9ce817b4daf2359feadbffb",
+  "archive_scope": "Author-adopted connected reader and selected source/provenance evidence; not the whole project or a complete Lean runtime closure.",
+  "reader": {
+    "chapters": 30,
+    "appendices": 4,
+    "bytes": 1353502,
+    "sha256": "176b5bf8e64b908ebfea59b3c652bec2f4b457c0179ed39f46e072825f7d5434"
+  },
+  "source_payload": {
+    "files_including_delivery_manifest": 1240,
+    "bytes": 87304383,
+    "delivery_manifest_sha256": "964d91297b5bbc065238d3e26d9411d2cbc96834e5a2a145bf23cafb10bad797"
+  },
+  "archive_contents": {
+    "regular_files": 1243,
+    "uncompressed_file_bytes": 87627479,
+    "contents_manifest_sha256": "a03f9cdee915027687c1f3e1a566784e18d1403d6117efc901ee3db011bf369d",
+    "accompaniment": "Unchanged payload plus editorial-adoption receipt, bundle README and outer contents manifest."
+  },
+  "hash_algorithm": "SHA-256",
+  "plaintext_archive": {
+    "filename": "MT_READER_SOURCES_v0p7_20261025.tar.zst",
+    "bytes": 12685866,
+    "sha256": "9df4a7df9d57341401e2cfd1ee667b2f601e8ac323f367809a1f9e0e9ae3117d"
+  },
+  "encrypted_archive": {
+    "filename": "MT_READER_SOURCES_v0p7_20261025.tar.zst.gpg",
+    "bytes": 12687413,
+    "sha256": "01d71069c7f3c4724876c38c04bf588002c2aa2dd0588339484ff7b0fd2556c5"
+  },
+  "encryption": {
+    "format": "OpenPGP",
+    "software": "gpg (GnuPG) 2.4.4",
+    "cipher": "AES-256",
+    "authenticated_mode": "OCB",
+    "secret_entropy_bits": 256,
+    "s2k": {
+      "mode": 3,
+      "digest": "SHA256",
+      "count": 65011712
+    }
+  },
+  "all_archive_members_verified_against_frozen_sources": true,
+  "source_files_unchanged_during_packaging": true,
+  "source_verification_scope": "Selected frozen delivery and exact external adoption receipt only; not the whole live working tree.",
+  "full_decryption_verified_against_plaintext_sha256": true,
+  "authenticated_decryption_passed": true,
+  "full_machine_release_acceptance_attested": false,
+  "local_preparation_time_utc": "2026-10-25T09:54:38.363961+00:00",
+  "independent_timestamp": null,
+  "publication_scope": "hashes_and_identifying_metadata_only",
+  "archive_contents_disclosed": false,
+  "decryption_key_disclosed": false,
+  "note_ru": "Публичная запись криптографических хешей. Содержимое архивов и ключ закрыты. Это не рецензия, не новый полный машинный релиз и не независимое удостоверение даты, авторства или научной корректности.",
+  "note_en": "Public cryptographic hash record only. Archive contents and key remain private. This is not peer review, a new complete machine release, or independent attestation of date, authorship or scientific correctness.",
+  "publication_repository": "https://github.com/pilonitrator-source/mt-scientific-hashes",
+  "publication_record_path": "records/v0p7-reader-sources-20261025"
+}
